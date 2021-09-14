@@ -17,9 +17,8 @@ namespace ForumSearch.Pages
             _logger = logger;
         }
 
-        public void OnGet(string q)
+        public void OnGet()
         {
-            _logger.LogInformation(q);
         }
     }
 }
