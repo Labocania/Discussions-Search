@@ -20,9 +20,7 @@ $(".site-checkbox").click(function () {
     }
 });
 
-var reason = 'user';
-
-$('input[type="submit"]').click(function (e) {
+$("#primary-search").click(function (e) {
     console.info("click");
     var sites = "";
     var value = $("#primary-field").val();
