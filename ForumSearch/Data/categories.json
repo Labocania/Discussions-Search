@@ -1,0 +1,122 @@
+{
+  "root": [
+    {
+      "CategoryName": "Gaming",
+      "ForumList": [
+        {
+          "Name": "ResetEra",
+          "Url": "https://www.resetera.com/forums/gaming-forum.7/"
+        },
+        {
+          "Name": "Giant Bomb",
+          "Url": "https://www.giantbomb.com/forums/"
+        },
+        {
+          "Name": "GameFaqs",
+          "Url": "https://gamefaqs.gamespot.com/boards"
+        },
+        {
+          "Name": "PC Gamer",
+          "Url": "https://forums.pcgamer.com"
+        },
+        {
+          "Name": "IGN",
+          "Url": "https://www.ignboards.com/categories/gaming.80142/"
+        },
+        {
+          "Name": "GameSpot",
+          "Url": "https://www.gamespot.com/forums/games-discussion-1000000/"
+        },
+        {
+          "Name": "STEAM",
+          "Url": "https://steamcommunity.com/discussions/#games"
+        },
+        {
+          "Name": "Blizzard",
+          "Url": "https://us.forums.blizzard.com/en/blizzard/"
+        },
+        {
+          "Name": "Ubisoft",
+          "Url": "https://forums.ubi.com/forum.php"
+        },
+        {
+          "Name": "GearBox",
+          "Url": "https://forums.gearboxsoftware.com"
+        },
+        {
+          "Name": "Eletronic Arts",
+          "Url": "https://www.ea.com/forums"
+        },
+        {
+          "Name": "Fextra Life",
+          "Url": "https://fextralife.com/forums/"
+        },
+        {
+          "Name": "MMO RPG",
+          "Url": "https://forums.mmorpg.com"
+        },
+        {
+          "Name": "Adventure Games",
+          "Url": "https://adventuregamers.com/forums/"
+        },
+        {
+          "Name": "Racket Boy",
+          "Url": "http://www.racketboy.com/forum/"
+        }
+      ]
+    },
+    {
+      "CategoryName": "Developer",
+      "ForumList": [
+        {
+          "Name": "StackOverflow",
+          "Url": "https://stackoverflow.com"
+        },
+        {
+          "Name": "GitHub",
+          "Url": "https://github.com"
+        },
+        {
+          "Name": "HackerNews",
+          "Url": "https://news.ycombinator.com"
+        },
+        {
+          "Name": "HackerNoon",
+          "Url": "https://hackernoon.com"
+        },
+        {
+          "Name": "Code Project",
+          "Url": "https://www.codeproject.com"
+        },
+        {
+          "Name": "Reddit Programming",
+          "Url": "https://www.reddit.com/r/programming/"
+        },
+        {
+          "Name": "Reddit Learn Programming",
+          "Url": "https://www.reddit.com/r/learnprogramming/"
+        },
+        {
+          "Name": "Bytes",
+          "Url": "https://bytes.com"
+        },
+        {
+          "Name": "Android Forums",
+          "Url": "https://androidforums.com"
+        },
+        {
+          "Name": "Unreal Engine",
+          "Url": "https://forums.unrealengine.com"
+        },
+        {
+          "Name": "Unity Answers",
+          "Url": "https://answers.unity.com/topics/home.html"
+        },
+        {
+          "Name": "GameDev.Net",
+          "Url": "https://www.gamedev.net/forums/"
+        }
+      ]
+    }
+  ]    
+}
