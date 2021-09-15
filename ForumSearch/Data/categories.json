@@ -5,7 +5,7 @@
       "ForumList": [
         {
           "Name": "ResetEra",
-          "Url": "https://www.resetera.com/forums/gaming-forum.7/"
+          "Url": "https://www.resetera.com/"
         },
         {
           "Name": "Giant Bomb",
@@ -21,11 +21,11 @@
         },
         {
           "Name": "IGN",
-          "Url": "https://www.ignboards.com/categories/gaming.80142/"
+          "Url": "https://www.ignboards.com/"
         },
         {
           "Name": "GameSpot",
-          "Url": "https://www.gamespot.com/forums/games-discussion-1000000/"
+          "Url": "https://www.gamespot.com/forums/"
         },
         {
           "Name": "STEAM",
@@ -37,7 +37,7 @@
         },
         {
           "Name": "Ubisoft",
-          "Url": "https://forums.ubi.com/forum.php"
+          "Url": "https://discussions.ubisoft.com/"
         },
         {
           "Name": "GearBox",
@@ -45,7 +45,7 @@
         },
         {
           "Name": "Eletronic Arts",
-          "Url": "https://www.ea.com/forums"
+          "Url": "https://answers.ea.com/ "
         },
         {
           "Name": "Fextra Life",
@@ -110,7 +110,7 @@
         },
         {
           "Name": "Unity Answers",
-          "Url": "https://answers.unity.com/topics/home.html"
+          "Url": "https://answers.unity.com/"
         },
         {
           "Name": "GameDev.Net",
