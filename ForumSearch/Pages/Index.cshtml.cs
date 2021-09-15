@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ForumSearch.Pages
 {
@@ -12,13 +8,18 @@ namespace ForumSearch.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        [BindProperty]
+        public CategoryDeserializer Categories { get; private set; }
+
+        public IndexModel(ILogger<IndexModel> logger, CategoryDeserializer deserealizer)
         {
             _logger = logger;
+            Categories = deserealizer;
         }
 
         public void OnGet()
         {
+
         }
     }
 }

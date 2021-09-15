@@ -1,13 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace ForumSearch
 {
@@ -24,6 +20,7 @@ namespace ForumSearch
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddCategoryDeserializer<CategoryDeserializer>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +48,18 @@ namespace ForumSearch
             {
                 endpoints.MapRazorPages();
             });
+        }
+    }
+
+    public static class CategoryDeserializerExtensions
+    {
+        public static void AddCategoryDeserializer<T>(this IServiceCollection services)
+        {
+            // Helped by this blob post: https://makolyte.com/system-invalidoperationexception-unable-to-resolve-service-for-type-while-attempting-to-activate/
+            string fileName = "Data/categories.json";
+            using System.IO.FileStream openStream = System.IO.File.OpenRead(fileName);
+            System.Text.Json.JsonDocument document = System.Text.Json.JsonDocument.Parse(openStream);
+            services.AddSingleton(_ => new CategoryDeserializer(document));
         }
     }
 }
