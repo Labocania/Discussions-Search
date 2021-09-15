@@ -35,15 +35,22 @@
         <aside class="bd-sidebar">
             <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Sites-checkbox">
                 <ul class="list-unstyled mb-0 py-3 pt-md-1" id="checkbox-list">
-                    @foreach (var category in Model.Categories)
+                    @{ 
+                        string buttonClass = "btn d-inline-flex align-items-center rounded";
+                        string bsTarget = "#getting-started-collapse";
+                        string ariaExpanded = "true";
+                        string divClass = "collapse show";
+                        string divId = "getting-started-collapse";
+                    }
+                    @for (int i = 0; i < Model.Categories.Count; i++)
                     {
                         <li class="mb-1">
-                            <button class="btn d-inline-flex align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#getting-started-collapse" aria-expanded="true" aria-current="true">
-                                @category.CategoryName
+                            <button class="@buttonClass" data-bs-toggle="collapse" data-bs-target=@bsTarget aria-expanded=@ariaExpanded >
+                                @Model.Categories[i].CategoryName
                             </button>
 
-                            <div class="collapse show" id="getting-started-collapse">
-                                @foreach (var forum in category.ForumList)
+                            <div class="@divClass" id=@divId>
+                                @foreach (var forum in @Model.Categories[i].ForumList)
                                 {
                                     <ul class="list-unstyled fw-normal pb-1 small">
                                         <li>
@@ -58,6 +65,15 @@
                                 }
                             </div>
                         </li>
+
+                        if (i == 0)
+                        {
+                            buttonClass = "btn d-inline-flex align-items-center rounded collapsed";
+                            bsTarget = "#customize-collapse";
+                            ariaExpanded = "false";
+                            divClass = "collapse";
+                            divId = "customize-collapse";
+                        }
                     }
                     <li class="my-3 mx-4 border-top"></li>
                     <li>
