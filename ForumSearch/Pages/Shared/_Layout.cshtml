@@ -32,10 +32,7 @@
     </header>
 
     <div class="container-xxl my-md-4 bd-layout">
-        <aside class="bd-sidebar">
-            <div class="form-actions no-color row" id="primary-form">
-                <div class="col-10"><input type="text" class="form-control" id="search-list" onkeyup="searchList()" placeholder="Search for Forums..."></div>
-            </div>           
+        <aside class="bd-sidebar">                  
             <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Sites-checkbox">
                 <ul class="list-unstyled mb-0 py-3 pt-md-1" name="category-ul">
                     @{
@@ -55,9 +52,9 @@
                             <div class="@divClass" id=@divId>
                                 @foreach (var forum in @Model.Categories[i].ForumList)
                                 {
-                                    <ul class="list-unstyled fw-normal pb-1 small" name="checkbox-list">
+                                    <ul class="list-unstyled" name="checkbox-list">
                                         <li>
-                                            <div class="form-check form-check-inline">
+                                            <div class="form-check">
                                                 <input class="form-check-input site-checkbox" type="checkbox" value=@forum.Url id="@forum.Name">
                                                 <label class="form-check-label" for="reddit">
                                                     @forum.Name

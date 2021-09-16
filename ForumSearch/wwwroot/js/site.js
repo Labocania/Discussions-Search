@@ -34,26 +34,3 @@ $("#primary-search").click(function (e) {
     console.info($("#primary-field").val());
     $('form').submit();
 });
-
-function searchList() {
-    var filter, categoryUl, forumUl, categoryLi, forumLi, input, id;
-    filter = document.getElementById("search-list").value.toUpperCase();
-    categoryUl = document.getElementsByName("category-ul");
-    for (var i = 0; i < categoryUl.length; i++) {
-        forumUl = categoryUl[i].getElementsByTagName("ul");
-
-        for (var k = 0; k < forumUl.length; k++) {
-            forumLi = forumUl[k].getElementsByTagName("li");
-            id = forumUl[k].getElementsByTagName("input")[0].id;
-            if (id.toUpperCase().indexOf(filter) > -1) {
-                forumLi[0].style.display = "";
-                categoryUl[i].getElementsByTagName("button")[0].hidden = true;
-            }
-            else {
-                forumLi[0].style.display = "none";
-                categoryUl[i].getElementsByTagName("button")[0].hidden = false;
-            }
-        }
-    }
-}
-
