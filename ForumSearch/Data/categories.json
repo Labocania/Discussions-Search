@@ -60,8 +60,8 @@
           "Url": "https://adventuregamers.com/forums/"
         },
         {
-          "Name": "Racket Boy",
-          "Url": "http://www.racketboy.com/forum/"
+          "Name": "Nexus Mods",
+          "Url": "https://forums.nexusmods.com"
         }
       ]
     },
@@ -85,8 +85,16 @@
           "Url": "https://hackernoon.com"
         },
         {
+          "Name": "Microsoft Docs",
+          "Url": "https://docs.microsoft.com/"
+        },
+        {
           "Name": "Code Project",
           "Url": "https://www.codeproject.com"
+        },
+        {
+          "Name": "Source Forge",
+          "Url": "https://sourceforge.net"
         },
         {
           "Name": "Reddit Programming",
@@ -97,8 +105,20 @@
           "Url": "https://www.reddit.com/r/learnprogramming/"
         },
         {
-          "Name": "Bytes",
-          "Url": "https://bytes.com"
+          "Name": "Ask Ubuntu",
+          "Url": "https://askubuntu.com"
+        },
+        {
+          "Name": "Linux Questions",
+          "Url": "https://www.linuxquestions.org"
+        },
+        {
+          "Name": "XDA Developers",
+          "Url": "https://forum.xda-developers.com"
+        },
+        {
+          "Name": "Server Fault",
+          "Url": "https://serverfault.com"
         },
         {
           "Name": "Android Forums",
@@ -115,6 +135,55 @@
         {
           "Name": "GameDev.Net",
           "Url": "https://www.gamedev.net/forums/"
+        }
+      ]
+    },
+    {
+      "CategoryName": "Tecnology",
+      "ForumList": [
+        {
+          "Name": "ArsTechnica",
+          "Url": "https://arstechnica.com/civis/"
+        },
+        {
+          "Name": "Toms Hardware",
+          "Url": "https://forums.tomshardware.com"
+        },
+        {
+          "Name": "Super User",
+          "Url": "https://superuser.com"
+        },
+        {
+          "Name": "Microsoft Answers",
+          "Url": "https://answers.microsoft.com/"
+        },
+        {
+          "Name": "Mac Rumors",
+          "Url": "https://forums.macrumors.com"
+        },
+        {
+          "Name": "AMD",
+          "Url": "https://community.amd.com"
+        },
+        {
+          "Name": "Nvidia",
+          "Url": "https://www.nvidia.com/en-us/geforce/forums/discover/"
+        },
+        {
+          "Name": "NeoWin",
+          "Url": "https://www.neowin.net/forum/"
+        },
+        {
+          "Name": "TechPowerUp",
+          "Url": "https://www.techpowerup.com/forums/"
+        },
+        {
+          "Name": "Linus Tech Tips",
+          "Url": "https://linustechtips.com"
+        },
+        {
+          "Name": "Overclock.Net",
+          "Url": "https://www.overclock.net"
         }
       ]
     }
