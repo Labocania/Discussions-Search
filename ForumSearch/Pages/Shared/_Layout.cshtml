@@ -33,9 +33,12 @@
 
     <div class="container-xxl my-md-4 bd-layout">
         <aside class="bd-sidebar">
+            <div class="form-actions no-color row" id="primary-form">
+                <div class="col-10"><input type="text" class="form-control" id="search-list" onkeyup="searchList()" placeholder="Search for Forums..."></div>
+            </div>           
             <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Sites-checkbox">
-                <ul class="list-unstyled mb-0 py-3 pt-md-1" id="checkbox-list">
-                    @{ 
+                <ul class="list-unstyled mb-0 py-3 pt-md-1" name="category-ul">
+                    @{
                         string buttonClass = "btn d-inline-flex align-items-center rounded";
                         string bsTarget = "#getting-started-collapse";
                         string ariaExpanded = "true";
@@ -45,17 +48,17 @@
                     @for (int i = 0; i < Model.Categories.Count; i++)
                     {
                         <li class="mb-1">
-                            <button class="@buttonClass" data-bs-toggle="collapse" data-bs-target=@bsTarget aria-expanded=@ariaExpanded >
+                            <button class="@buttonClass" data-bs-toggle="collapse" data-bs-target=@bsTarget aria-expanded=@ariaExpanded>
                                 @Model.Categories[i].CategoryName
                             </button>
 
                             <div class="@divClass" id=@divId>
                                 @foreach (var forum in @Model.Categories[i].ForumList)
                                 {
-                                    <ul class="list-unstyled fw-normal pb-1 small">
+                                    <ul class="list-unstyled fw-normal pb-1 small" name="checkbox-list">
                                         <li>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input site-checkbox" type="checkbox" value=@forum.Url>
+                                                <input class="form-check-input site-checkbox" type="checkbox" value=@forum.Url id="@forum.Name">
                                                 <label class="form-check-label" for="reddit">
                                                     @forum.Name
                                                 </label>
