@@ -32,8 +32,8 @@
           "Url": "https://steamcommunity.com/discussions/#games"
         },
         {
-          "Name": "Blizzard",
-          "Url": "https://us.forums.blizzard.com/en/blizzard/"
+          "Name": "BoardGameGeek",
+          "Url": "https://boardgamegeek.com/forums"
         },
         {
           "Name": "Ubisoft",
@@ -150,6 +150,18 @@
           "Url": "https://forums.tomshardware.com"
         },
         {
+          "Name": "TechPowerUp",
+          "Url": "https://www.techpowerup.com/forums/"
+        },
+        {
+          "Name": "Linus Tech Tips",
+          "Url": "https://linustechtips.com"
+        },
+        {
+          "Name": "AnandTech",
+          "Url": "https://forums.anandtech.com"
+        },
+        {
           "Name": "Super User",
           "Url": "https://superuser.com"
         },
@@ -174,16 +186,139 @@
           "Url": "https://www.neowin.net/forum/"
         },
         {
-          "Name": "TechPowerUp",
-          "Url": "https://www.techpowerup.com/forums/"
-        },
-        {
-          "Name": "Linus Tech Tips",
-          "Url": "https://linustechtips.com"
-        },
-        {
           "Name": "Overclock.Net",
           "Url": "https://www.overclock.net"
+        },
+        {
+          "Name": "TechRepublic",
+          "Url": "https://www.techrepublic.com/forums/"
+        }
+      ]
+    },
+    {
+      "CategoryName": "Fitness",
+      "ForumList": [
+        {
+          "Name": "Reddit Bodyweight Fitness",
+          "Url": "https://www.reddit.com/r/bodyweightfitness/"
+        },
+        {
+          "Name": "Bodybuilding",
+          "Url": "https://forum.bodybuilding.com"
+        },
+        {
+          "Name": "Reddit Fitness",
+          "Url": "https://www.reddit.com/r/Fitness/"
+        },
+        {
+          "Name": "Fitness.com",
+          "Url": "https://www.fitness.com/en/forum/"
+        },
+        {
+          "Name": "T Nation",
+          "Url": "https://forums.t-nation.com"
+        },
+        {
+          "Name": "Cathe Friedrich",
+          "Url": "https://cathe.com/forum/"
+        },
+        {
+          "Name": "My Fitness Pal",
+          "Url": "https://community.myfitnesspal.com/"
+        },
+        {
+          "Name": "PinoyExchange",
+          "Url": "https://www.pinoyexchange.com/categories/body-and-fitness"
+        },
+        {
+          "Name": "Cycling News",
+          "Url": "https://forum.cyclingnews.com"
+        },
+        {
+          "Name": "CrossFit",
+          "Url": "https://board.crossfit.com"
+        },
+        {
+          "Name": "Starting Strength",
+          "Url": "https://startingstrength.com/resources/forum/"
+        }
+      ]
+    },
+    {
+      "CategoryName": "Music",
+      "ForumList": [
+        {
+          "Name": "Ultimate Guitar",
+          "Url": "https://www.ultimate-guitar.com/forum/"
+        },
+        {
+          "Name": "Reddit Lets Talk Music",
+          "Url": "https://www.reddit.com/r/LetsTalkMusic/"
+        },
+        {
+          "Name": "Song Stuff",
+          "Url": "https://forums.songstuff.com"
+        },
+        {
+          "Name": "Talk Classical",
+          "Url": "https://www.talkclassical.com/classical-music-discussion/"
+        },
+        {
+          "Name": "Music Banter",
+          "Url": "https://www.musicbanter.com"
+        },
+        {
+          "Name": "Pulse",
+          "Url": "https://pulsemusic.proboards.com"
+        },
+        {
+          "Name": "Vinyl Collective",
+          "Url": "https://boards.vinylcollective.com"
+        },
+        {
+          "Name": "Okayplayer",
+          "Url": "https://board.okayplayer.com/"
+        },
+        {
+          "Name": "Chorus.fm",
+          "Url": "https://forum.chorus.fm"
+        },
+        {
+          "Name": "Pop Justice",
+          "Url": "https://forum.popjustice.com"
+        }
+      ]
+    },
+    {
+      "CategoryName": "Movies",
+      "ForumList": [
+        {
+          "Name": "Reddit Movies",
+          "Url": "https://www.reddit.com/r/movies/"
+        },
+        {
+          "Name": "AV Forums Movies",
+          "Url": "https://www.avforums.com/"
+        },
+        {
+          "Name": "Movie Forums",
+          "Url": "https://www.movieforums.com/community/"
+        },
+        {
+          "Name": "Blu-ray.com",
+          "Url": "https://www.forum.blu-ray.com"
+        },
+        {
+          "Name": "Movie Chat",
+          "Url": "https://moviechat.org"
+        },
+        {
+          "Name": "Film Boards",
+          "Url": "https://filmboards.com"
+        },
+        {
+          "Name": "IMDB v2.1",
+          "Url": "https://imdb2.freeforums.net"
         }
       ]
     }
