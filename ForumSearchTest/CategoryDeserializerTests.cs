@@ -6,7 +6,7 @@ using Xunit;
 
 namespace ForumSearchTest
 {
-    public class UnitTest1
+    public class CategoryDeserializerTests
     {
         FileStream openStream;
         CategoryDeserializer deserializer;
