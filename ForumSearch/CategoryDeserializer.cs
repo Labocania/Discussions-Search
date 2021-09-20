@@ -7,8 +7,7 @@ namespace ForumSearch
     public class CategoryDeserializer
     {
         public JsonDocument Document { get; private set; }
-        //private JsonSerializerOptions _options;
-        public List<Category> Categories = new();
+        public readonly List<Category> Categories = new();
 
         public CategoryDeserializer(JsonDocument document)
         {

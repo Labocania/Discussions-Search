@@ -1,0 +1,69 @@
+{
+  "root": [
+    {
+      "CategoyName": "Gaming",
+      "Forumist": [
+        {
+          "Namge": "ResetEra",
+          "Url": "https://www.resetera.com/"
+        },
+        {
+          "Namge": "Giant Bomb",
+          "U": "https://www.giantbomb.com/forums/"
+        },
+        {
+          "Name": "GameFaqs",
+          "Urlz": "https://gamefaqs.gamespot.com/boards"
+        },
+        {
+          "Name": "PC Gamer",
+          "Url": "https://forums.pcgamer.com"
+        },
+        {
+          "Name": "IGN",
+          "Url": "https://www.ignboards.com/"
+        },
+        {
+          "Name": "GameSpot",
+          "Url": "https://www.gamespot.com/forums/"
+        },
+        {
+          "Name": "STEAM",
+          "Url": "https://steamcommunity.com/discussions/#games"
+        },
+        {
+          "Name": "BoardGameGeek",
+          "Url": "https://boardgamegeek.com/"
+        },
+        {
+          "Name": "Ubisoft",
+          "Url": "https://discussions.ubisoft.com/"
+        },
+        {
+          "Name": "GearBox",
+          "Url": "https://forums.gearboxsoftware.com"
+        },
+        {
+          "Name": "Eletronic Arts",
+          "Url": "https://answers.ea.com/ "
+        },
+        {
+          "Name": "Fextra Life",
+          "Url": "https://fextralife.com/forums/"
+        },
+        {
+          "ame": "MMO RPG",
+          "Url": "https://forums.mmorpg.com"
+        },
+        {
+          "Name": "Adventure Games",
+          "Url": "https://adventuregamers.com/forums/"
+        },
+        {
+          "Name": "Nexus Mods",
+          "Url": "https://forums.nexusmods.com"
+        }
+      ]
+    }
+  ]    
+}

@@ -55,7 +55,7 @@ namespace ForumSearch
     {
         public static void AddCategoryDeserializer<T>(this IServiceCollection services)
         {
-            // Helped by this blob post: https://makolyte.com/system-invalidoperationexception-unable-to-resolve-service-for-type-while-attempting-to-activate/
+            // Helped by this blog post: https://makolyte.com/system-invalidoperationexception-unable-to-resolve-service-for-type-while-attempting-to-activate/
             string fileName = "Data/categories.json";
             using System.IO.FileStream openStream = System.IO.File.OpenRead(fileName);
             System.Text.Json.JsonDocument document = System.Text.Json.JsonDocument.Parse(openStream);
